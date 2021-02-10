@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rounded_corners_gray_button">
+
+    <TextView
+        android:id="@+id/item_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_top_corners_white"
+        android:paddingTop="@dimen/margin_16"
+        android:textColor="@color/black"
+        android:drawablePadding="8dp"
+        app:drawableEndCompat="@drawable/ic_location"
+        app:drawableTint="@color/black" />
+
+    <TextView
+        android:id="@+id/item_list_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bottom_corners_white"
+        android:paddingTop="@dimen/margin_16"
+        android:textColor="@color/black" />
+</LinearLayout>

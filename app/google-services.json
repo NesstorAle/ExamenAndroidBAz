@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392006523184",
+    "project_id": "aztecbanc-c6d9f",
+    "storage_bucket": "aztecbanc-c6d9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392006523184:android:219fd73e1194c952a090f5",
+        "android_client_info": {
+          "package_name": "com.baz.examenandroidbaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392006523184-g063n45m0hpv5n9oa1s3nmhc527ld7r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd1nhwHl6r3Rg8R3XLJN0ZZ1bQiPj7FiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392006523184-g063n45m0hpv5n9oa1s3nmhc527ld7r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

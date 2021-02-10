@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExamenAndroidBAz</string>
+    <!-- strings for activity_login -->
+    <string name="activity_login_email">Correo</string>
+    <string name="activity_login_password">contraseña</string>
+    <string name="activity_login_short_password">Minimo 6 caracteres</string>
+    <string name="activity_login_button">entrar</string>
+    <string name="activity_main_button_my_camarades">Mis colaboradores</string>
+    <string name="activity_main_button_add_comrade">agregar colaborador</string>
+    <string name="activity_add_name">Nombre</string>
+    <string name="add_comrade_button_text">Agregar</string>
+
+</resources>

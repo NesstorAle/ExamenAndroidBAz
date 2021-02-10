@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:padding="@dimen/margin_24"
+    tools:context=".AddComrades">
+
+    <EditText
+        android:id="@+id/add_comrade_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40"
+        android:background="@drawable/rounded_corners_white"
+        android:hint="@string/activity_add_name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:lines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/add_comrade_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:background="@drawable/rounded_corners_white"
+        android:hint="@string/activity_login_email"
+        android:lines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/add_comrade_name"
+        app:layout_constraintStart_toStartOf="@+id/add_comrade_name"
+        app:layout_constraintTop_toBottomOf="@+id/add_comrade_name" />
+
+    <Button
+        android:id="@+id/add_comrade_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40"
+        android:textSize="@dimen/text_16"
+        android:background="@drawable/rounded_green_login_button"
+        android:text="@string/add_comrade_button_text"
+        app:layout_constraintEnd_toEndOf="@+id/add_comrade_email"
+        app:layout_constraintStart_toStartOf="@+id/add_comrade_email"
+        app:layout_constraintTop_toBottomOf="@+id/add_comrade_email" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
